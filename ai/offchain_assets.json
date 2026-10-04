@@ -1,0 +1,450 @@
+[
+    {
+        "asset_id": 1789759444479,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759444479",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:04.520456"
+    },
+    {
+        "asset_id": 1789759445915,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759445915",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:05.928992"
+    },
+    {
+        "asset_id": 1789759446441,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759446441",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:06.451379"
+    },
+    {
+        "asset_id": 1789759446679,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759446679",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:06.690107"
+    },
+    {
+        "asset_id": 1789759446896,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759446896",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:06.906757"
+    },
+    {
+        "asset_id": 1789759447113,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759447113",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:07.124378"
+    },
+    {
+        "asset_id": 1789759447340,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759447340",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:07.351854"
+    },
+    {
+        "asset_id": 1789759447556,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759447556",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:07.570729"
+    },
+    {
+        "asset_id": 1789759448279,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759448279",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:08.290773"
+    },
+    {
+        "asset_id": 1789759448890,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759448890",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:08.900575"
+    },
+    {
+        "asset_id": 1789759449108,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759449108",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:09.128042"
+    },
+    {
+        "asset_id": 1789759449342,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759449342",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:09.353388"
+    },
+    {
+        "asset_id": 1789759449556,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759449556",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:09.576582"
+    },
+    {
+        "asset_id": 1789759450693,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759450693",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:10.705518"
+    },
+    {
+        "asset_id": 1789759450913,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759450913",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:10.924603"
+    },
+    {
+        "asset_id": 1789759451146,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759451146",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:11.156877"
+    },
+    {
+        "asset_id": 1789759451413,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759451413",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:11.423157"
+    },
+    {
+        "asset_id": 1789759451629,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759451629",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:11.639526"
+    },
+    {
+        "asset_id": 1789759452120,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759452120",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:12.128472"
+    },
+    {
+        "asset_id": 1789759452806,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759452806",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:12.816493"
+    },
+    {
+        "asset_id": 1789759456888,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759456888",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:16.905606"
+    },
+    {
+        "asset_id": 1789759457104,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759457104",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:17.113445"
+    },
+    {
+        "asset_id": 1789759457335,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759457335",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:17.353313"
+    },
+    {
+        "asset_id": 1789759457579,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759457579",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:19.376428"
+    },
+    {
+        "asset_id": 1789759459645,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainTestAsset-1789759459645",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:24:19.653646"
+    },
+    {
+        "asset_id": 1789761077580,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789761077580",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:51:17.598559"
+    },
+    {
+        "asset_id": 1789761200515,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789761200515",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:53:20.532188"
+    },
+    {
+        "asset_id": 1789761229785,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789761229785",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:53:49.808146"
+    },
+    {
+        "asset_id": 1789761520114,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789761520114",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:58:39.262922"
+    },
+    {
+        "asset_id": 1789761559337,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789761559337",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T19:59:19.319239"
+    },
+    {
+        "asset_id": 1789761759017,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789761759017",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:02:38.085280"
+    },
+    {
+        "asset_id": 1789761760160,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789761760160",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:02:40.068629"
+    },
+    {
+        "asset_id": 1789761779474,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789761779474",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:02:58.617222"
+    },
+    {
+        "asset_id": 1789761977460,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789761977460",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:06:17.225130"
+    },
+    {
+        "asset_id": 1789761988793,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789761988793",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:06:28.608644"
+    },
+    {
+        "asset_id": 1789761990681,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789761990681",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:06:30.160653"
+    },
+    {
+        "asset_id": 1789763141501,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789763141501",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:25:41.511930+00:00"
+    },
+    {
+        "asset_id": 1789763142948,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789763142948",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:25:42.592057+00:00"
+    },
+    {
+        "asset_id": 1789763144160,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789763144160",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:25:43.744127+00:00"
+    },
+    {
+        "asset_id": 1789763154758,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789763154758",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:25:54.575640+00:00"
+    },
+    {
+        "asset_id": 1789763163917,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789763163917",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:26:03.822826+00:00"
+    },
+    {
+        "asset_id": 1789764596796,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789764596796",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:49:56.681874+00:00"
+    },
+    {
+        "asset_id": 1789764597939,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789764597939",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:49:57.579684+00:00"
+    },
+    {
+        "asset_id": 1789764615539,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789764615539",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:50:14.605373+00:00"
+    },
+    {
+        "asset_id": 1789764925649,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789764925649",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T20:55:25.362700+00:00"
+    },
+    {
+        "asset_id": 1789765548043,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789765548043",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T21:05:47.113185+00:00"
+    },
+    {
+        "asset_id": 1789765743309,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789765743309",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T21:09:03.157843+00:00"
+    },
+    {
+        "asset_id": 1789766595312,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789766595312",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T21:23:15.035613+00:00"
+    },
+    {
+        "asset_id": 1789766596531,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789766596531",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T21:23:16.042872+00:00"
+    },
+    {
+        "asset_id": 1789766598131,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789766598131",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T21:23:17.252155+00:00"
+    },
+    {
+        "asset_id": 1789766630291,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789766630291",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T21:23:49.402555+00:00"
+    },
+    {
+        "asset_id": 1789766636283,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789766636283",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T21:23:55.867883+00:00"
+    },
+    {
+        "asset_id": 1789766636637,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789766636637",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T21:23:56.111658+00:00"
+    },
+    {
+        "asset_id": 1789766636905,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789766636905",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T21:23:56.345119+00:00"
+    },
+    {
+        "asset_id": 1789766643393,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789766643393",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T21:24:02.944655+00:00"
+    },
+    {
+        "asset_id": 1789770195896,
+        "land_id": 1,
+        "owner": "0xC79c6fA13Cf57cEca4c8C5A2442B035428E2c3a9",
+        "asset_reference": "OffChainAsset-1789770195896",
+        "storage_location": "OFF_CHAIN",
+        "stored_at": "2026-09-18T22:23:15.721350+00:00"
+    }
+]

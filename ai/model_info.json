@@ -1,0 +1,51 @@
+{
+    "project": "AI-Based Hybrid Blockchain Storage Decision System",
+    "algorithm": "Random Forest Classifier",
+    "dataset_type": "Synthetic",
+    "total_records": 50000,
+    "training_records": 40000,
+    "testing_records": 10000,
+    "random_state": 42,
+    "features": [
+        "asset_size",
+        "importance",
+        "update_frequency",
+        "transaction_cost",
+        "ownership_required"
+    ],
+    "target": "storage_decision",
+    "classes": {
+        "0": "OFF_CHAIN",
+        "1": "ON_CHAIN"
+    },
+    "class_distribution": {
+        "OFF_CHAIN": 25000,
+        "ON_CHAIN": 25000
+    },
+    "accuracy": 0.9001,
+    "accuracy_percentage": 90.01,
+    "precision": 0.9008214786615909,
+    "recall": 0.8992,
+    "f1_score": 0.9000100090081073,
+    "confusion_matrix": [
+        [
+            4505,
+            495
+        ],
+        [
+            504,
+            4496
+        ]
+    ],
+    "feature_importance": {
+        "asset_size": 0.06001201648361781,
+        "importance": 0.10066475869640493,
+        "update_frequency": 0.04164965532566653,
+        "transaction_cost": 0.0372033129746092,
+        "ownership_required": 0.7604702565197015
+    },
+    "n_estimators": 150,
+    "max_depth": 10,
+    "min_samples_split": 5,
+    "min_samples_leaf": 2
+}
