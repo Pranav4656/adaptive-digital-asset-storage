@@ -406,7 +406,7 @@ Browser LocalStorage
 ## 📁 Project Structure
 
 ```text
-virtual-world-blockchain/
+adaptive-digital-asset-storage/
 │
 ├── ai/
 │   ├── api.py
@@ -473,7 +473,7 @@ Activate it:
 ### 4\. Install Python dependencies
 
 ```powershell
-pip install flask flask-cors pandas numpy scikit-learn joblib
+pip install -r requirements.txt
 ```
 
 \---
@@ -680,4 +680,6 @@ Hardhat + Solidity
 MetaMask
         +
 Hybrid Storage
+
+
 
