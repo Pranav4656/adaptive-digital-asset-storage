@@ -4,7 +4,7 @@
 
 This project implements an **AI-Based Hybrid Blockchain Storage Decision System** within a virtual world environment.
 
-The system uses a **Random Forest Classifier** to automatically determine whether a digital asset should be stored **ON_CHAIN** on a blockchain or **OFF_CHAIN** using backend storage.
+The system uses a **Random Forest Classifier** to automatically determine whether a digital asset should be stored **ON\_CHAIN** on a blockchain or **OFF\_CHAIN** using backend storage.
 
 The project combines:
 
@@ -15,7 +15,7 @@ The project combines:
 * 💾 Off-chain Storage
 * 📊 Experimental Analysis
 
----
+\---
 
 ## 🎯 Project Objective
 
@@ -32,18 +32,18 @@ The AI system analyzes five asset features:
 Based on these characteristics, the Random Forest model predicts:
 
 ```text
-ON_CHAIN
+ON\_CHAIN
 ```
 
 or
 
 ```text
-OFF_CHAIN
+OFF\_CHAIN
 ```
 
 The selected storage method is then demonstrated through the virtual-world application.
 
----
+\---
 
 ## 🏗️ System Architecture
 
@@ -70,7 +70,7 @@ The selected storage method is then demonstrated through the virtual-world appli
                      │                   │
                      ▼                   ▼
                ┌───────────┐       ┌───────────┐
-               │ ON_CHAIN  │       │ OFF_CHAIN │
+               │ ON\_CHAIN  │       │ OFF\_CHAIN │
                └─────┬─────┘       └─────┬─────┘
                      │                   │
                      ▼                   ▼
@@ -80,7 +80,7 @@ The selected storage method is then demonstrated through the virtual-world appli
               └────────────┘       └────────────┘
 ```
 
----
+\---
 
 ## 🤖 AI Model
 
@@ -88,16 +88,16 @@ The project uses a **Random Forest Classifier** for storage decision prediction.
 
 ### Model Configuration
 
-| Parameter             |                    Value |
-| --------------------- | -----------------------: |
-| Algorithm             | Random Forest Classifier |
-| Number of Estimators  |                      150 |
-| Maximum Depth         |                       10 |
-| Minimum Samples Split |                        5 |
-| Minimum Samples Leaf  |                        2 |
-| Random State          |                       42 |
+|Parameter|Value|
+|-|-:|
+|Algorithm|Random Forest Classifier|
+|Number of Estimators|150|
+|Maximum Depth|10|
+|Minimum Samples Split|5|
+|Minimum Samples Leaf|2|
+|Random State|42|
 
----
+\---
 
 ## 📊 Dataset
 
@@ -105,79 +105,79 @@ The model was trained using a **synthetic dataset containing 50,000 records**.
 
 ### Dataset Split
 
-| Dataset  | Records |
-| -------- | ------: |
-| Total    |  50,000 |
-| Training |  40,000 |
-| Testing  |  10,000 |
+|Dataset|Records|
+|-|-:|
+|Total|50,000|
+|Training|40,000|
+|Testing|10,000|
 
 The dataset contains two target classes:
 
 ```text
-OFF_CHAIN = 25,000
-ON_CHAIN  = 25,000
+OFF\_CHAIN = 25,000
+ON\_CHAIN  = 25,000
 ```
 
 ### Features
 
 ```text
-asset_size
+asset\_size
 importance
-update_frequency
-transaction_cost
-ownership_required
+update\_frequency
+transaction\_cost
+ownership\_required
 ```
 
 ### Target
 
 ```text
-storage_decision
+storage\_decision
 ```
 
 Possible target values:
 
 ```text
-ON_CHAIN
-OFF_CHAIN
+ON\_CHAIN
+OFF\_CHAIN
 ```
 
----
+\---
 
 ## 📈 AI Model Evaluation
 
 The trained model achieved the following results on the test dataset:
 
-| Metric    | Result |
-| --------- | -----: |
-| Accuracy  | 90.01% |
-| Precision | 90.08% |
-| Recall    | 89.92% |
-| F1-Score  | 90.00% |
+|Metric|Result|
+|-|-:|
+|Accuracy|90.01%|
+|Precision|90.08%|
+|Recall|89.92%|
+|F1-Score|90.00%|
 
 ### Confusion Matrix
 
-| Actual / Predicted | OFF_CHAIN | ON_CHAIN |
-| ------------------ | --------: | -------: |
-| OFF_CHAIN          |      4505 |      495 |
-| ON_CHAIN           |       504 |     4496 |
+|Actual / Predicted|OFF\_CHAIN|ON\_CHAIN|
+|-|-:|-:|
+|OFF\_CHAIN|4505|495|
+|ON\_CHAIN|504|4496|
 
----
+\---
 
 ## ⭐ Feature Importance
 
 The Random Forest model produced the following feature importance values:
 
-| Feature            | Importance |
-| ------------------ | ---------: |
-| Ownership Required |     76.05% |
-| Importance         |     10.07% |
-| Asset Size         |      6.00% |
-| Update Frequency   |      4.16% |
-| Transaction Cost   |      3.72% |
+|Feature|Importance|
+|-|-:|
+|Ownership Required|76.05%|
+|Importance|10.07%|
+|Asset Size|6.00%|
+|Update Frequency|4.16%|
+|Transaction Cost|3.72%|
 
 These values indicate the relative contribution of each input feature to the model's decision process.
 
----
+\---
 
 ## ⛓️ Blockchain
 
@@ -207,7 +207,7 @@ The smart contract provides functionality for:
 0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
 ```
 
----
+\---
 
 ## 🦊 MetaMask
 
@@ -218,23 +218,23 @@ The application supports:
 1. Connecting the wallet
 2. Claiming virtual land
 3. Verifying blockchain ownership
-4. Confirming ON_CHAIN asset transactions
+4. Confirming ON\_CHAIN asset transactions
 
----
+\---
 
-## 💾 OFF_CHAIN Storage
+## 💾 OFF\_CHAIN Storage
 
-Assets classified as `OFF_CHAIN` are stored through the Flask backend.
+Assets classified as `OFF\_CHAIN` are stored through the Flask backend.
 
 The backend maintains the records in:
 
 ```text
-ai/offchain_assets.json
+ai/offchain\_assets.json
 ```
 
-The application can retrieve these records and verify the number of stored OFF_CHAIN assets.
+The application can retrieve these records and verify the number of stored OFF\_CHAIN assets.
 
----
+\---
 
 ## 🔄 Application Workflow
 
@@ -269,13 +269,13 @@ The characteristics are sent to the Flask AI API.
 The Random Forest model predicts:
 
 ```text
-ON_CHAIN
+ON\_CHAIN
 ```
 
 or
 
 ```text
-OFF_CHAIN
+OFF\_CHAIN
 ```
 
 and returns a confidence value.
@@ -285,7 +285,7 @@ and returns a confidence value.
 If the prediction is:
 
 ```text
-ON_CHAIN
+ON\_CHAIN
 ```
 
 the asset reference is stored through the blockchain smart contract.
@@ -293,7 +293,7 @@ the asset reference is stored through the blockchain smart contract.
 If the prediction is:
 
 ```text
-OFF_CHAIN
+OFF\_CHAIN
 ```
 
 the asset reference is stored through the Flask backend.
@@ -303,11 +303,11 @@ the asset reference is stored through the Flask backend.
 The application can verify:
 
 * Blockchain asset records
-* OFF_CHAIN backend records
+* OFF\_CHAIN backend records
 * Land ownership
 * Transaction information
 
----
+\---
 
 ## 🧪 Research Experiment
 
@@ -324,13 +324,13 @@ The experiment supports:
 The experiment records:
 
 * Number of assets tested
-* ON_CHAIN decisions
-* OFF_CHAIN decisions
+* ON\_CHAIN decisions
+* OFF\_CHAIN decisions
 * Average confidence
 * Blockchain transactions
 * Individual asset results
 
----
+\---
 
 ## 📊 Current Demonstration Results
 
@@ -339,17 +339,17 @@ During the current application demonstration:
 ```text
 Assets Tested: 14
 
-ON_CHAIN: 6
-OFF_CHAIN: 8
+ON\_CHAIN: 6
+OFF\_CHAIN: 8
 
 Blockchain Transactions: 6
 
 Average Confidence: 99.98%
 ```
 
-The application also provides accumulated storage verification information from the blockchain and OFF_CHAIN backend.
+The application also provides accumulated storage verification information from the blockchain and OFF\_CHAIN backend.
 
----
+\---
 
 ## 🖥️ Technologies Used
 
@@ -397,11 +397,11 @@ MetaMask
 
 ```text
 Blockchain
-JSON-based OFF_CHAIN storage
+JSON-based OFF\_CHAIN storage
 Browser LocalStorage
 ```
 
----
+\---
 
 ## 📁 Project Structure
 
@@ -410,13 +410,13 @@ virtual-world-blockchain/
 │
 ├── ai/
 │   ├── api.py
-│   ├── train_model.py
-│   ├── model_info.json
-│   ├── random_forest_model.joblib
-│   └── offchain_assets.json
+│   ├── train\_model.py
+│   ├── model\_info.json
+│   ├── random\_forest\_model.joblib
+│   └── offchain\_assets.json
 │
 ├── data/
-│   └── synthetic_storage_dataset.csv
+│   └── synthetic\_storage\_dataset.csv
 │
 ├── src/
 │   ├── blockchain/
@@ -438,11 +438,11 @@ virtual-world-blockchain/
 └── README.md
 ```
 
----
+\---
 
 ## ⚙️ Installation
 
-### 1. Clone or open the project
+### 1\. Clone or open the project
 
 Open the project folder in VS Code.
 
@@ -450,7 +450,7 @@ Open the project folder in VS Code.
 virtual-world-blockchain
 ```
 
-### 2. Install frontend dependencies
+### 2\. Install frontend dependencies
 
 Open the VS Code terminal:
 
@@ -458,7 +458,7 @@ Open the VS Code terminal:
 npm install
 ```
 
-### 3. Create Python virtual environment
+### 3\. Create Python virtual environment
 
 ```powershell
 python -m venv .venv
@@ -467,16 +467,16 @@ python -m venv .venv
 Activate it:
 
 ```powershell
-.\.venv\Scripts\Activate.ps1
+.\\.venv\\Scripts\\Activate.ps1
 ```
 
-### 4. Install Python dependencies
+### 4\. Install Python dependencies
 
 ```powershell
 pip install flask flask-cors pandas numpy scikit-learn joblib
 ```
 
----
+\---
 
 # 🚀 Running the Project
 
@@ -502,20 +502,20 @@ EADDRINUSE: address already in use
 
 a Hardhat node is already running.
 
----
+\---
 
 ## Terminal 2 — Start AI API
 
 Activate the virtual environment:
 
 ```powershell
-.\.venv\Scripts\Activate.ps1
+.\\.venv\\Scripts\\Activate.ps1
 ```
 
 Then run:
 
 ```powershell
-python ai\api.py
+python ai\\api.py
 ```
 
 The AI API runs on:
@@ -530,7 +530,7 @@ The model information endpoint is:
 http://127.0.0.1:5000/model-info
 ```
 
----
+\---
 
 ## Terminal 3 — Start React Application
 
@@ -548,7 +548,7 @@ http://localhost:5173
 
 Open the displayed URL in your browser.
 
----
+\---
 
 # 🔗 Deploying the Smart Contract Locally
 
@@ -564,7 +564,7 @@ After deployment, update the contract address in:
 src/blockchain/contract.js
 ```
 
----
+\---
 
 # 🧪 How to Use the Application
 
@@ -579,13 +579,13 @@ src/blockchain/contract.js
 9. Click a ground block in the virtual world.
 10. The system generates an asset.
 11. The AI model analyzes the asset.
-12. The AI selects ON_CHAIN or OFF_CHAIN.
+12. The AI selects ON\_CHAIN or OFF\_CHAIN.
 13. The asset is stored using the selected method.
 14. Review the result in the Research Results section.
 15. Use Storage Verification to verify backend/blockchain records.
 16. Export experimental records using the Research CSV button.
 
----
+\---
 
 # 📥 Research Data Export
 
@@ -611,10 +611,10 @@ Timestamp
 The exported file is:
 
 ```text
-virtual_world_research_results.csv
+virtual\_world\_research\_results.csv
 ```
 
----
+\---
 
 # 📌 Research Limitations
 
@@ -623,13 +623,13 @@ This implementation has several limitations:
 * The machine-learning dataset is synthetic.
 * The generated application asset characteristics are simulated.
 * The blockchain demonstration uses a local Hardhat network.
-* OFF_CHAIN storage is implemented using backend JSON storage.
+* OFF\_CHAIN storage is implemented using backend JSON storage.
 * The system has not been evaluated using a production blockchain.
 * The model results should not be interpreted as real-world production performance.
 
 Therefore, the reported model metrics represent the performance of the implemented model on the synthetic dataset used in this project.
 
----
+\---
 
 # 🔮 Future Work
 
@@ -645,7 +645,7 @@ Possible future improvements include:
 * Large-scale performance benchmarking.
 * Automated blockchain transaction management.
 
----
+\---
 
 # 📜 Research Summary
 
@@ -662,7 +662,7 @@ F1-Score  : 90.00%
 
 The integrated application demonstrates the complete workflow from digital asset generation and AI-based classification to blockchain or backend storage and verification.
 
----
+\---
 
 ## 👨‍💻 Project
 
@@ -680,3 +680,4 @@ Hardhat + Solidity
 MetaMask
         +
 Hybrid Storage
+
