@@ -616,21 +616,6 @@ virtual\_world\_research\_results.csv
 
 \---
 
-# 📌 Research Limitations
-
-This implementation has several limitations:
-
-* The machine-learning dataset is synthetic.
-* The generated application asset characteristics are simulated.
-* The blockchain demonstration uses a local Hardhat network.
-* OFF\_CHAIN storage is implemented using backend JSON storage.
-* The system has not been evaluated using a production blockchain.
-* The model results should not be interpreted as real-world production performance.
-
-Therefore, the reported model metrics represent the performance of the implemented model on the synthetic dataset used in this project.
-
-\---
-
 # 🔮 Future Work
 
 Possible future improvements include:
